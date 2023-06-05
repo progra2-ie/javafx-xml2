@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="cr.ac.ucr.paraiso.progra2.javafxxml2.JavaFxController">
+    <children>
+        <Label
+                layoutX="251.0"
+                layoutY="227.0"
+                text="Esta es mi primer aplicación JavaFX">
+            <font>
+                <javafx.scene.text.Font size="18"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

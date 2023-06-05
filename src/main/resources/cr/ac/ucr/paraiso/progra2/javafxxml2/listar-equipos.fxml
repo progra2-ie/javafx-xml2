@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cr.ac.ucr.paraiso.progra2.javafxxml2.controller.ListarEquiposController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="47.0" layoutY="57.0" text="Seleccione un equipo" />
+        <ComboBox fx:id="cbEquipos" layoutX="358.0" layoutY="57.0" prefWidth="410.0">
+        </ComboBox>
+        <Button fx:id="btnMostrar" layoutX="829.0" layoutY="60.0"
+                mnemonicParsing="false" text="Mostrar" />
+        <TableView fx:id="tvEquipos" layoutX="189.0" layoutY="174.0"
+                   prefHeight="200.0" prefWidth="780.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Column X" />
+            </columns>
+        </TableView>
+    </children>
+
+</AnchorPane>
